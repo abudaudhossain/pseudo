@@ -20,12 +20,32 @@
         .second h1:last-child{
             background: coral;
         }
-      
+        h1:nth-of-type(4){
+          background: green;
+      }
         li:last-child{
             color: red;
         }
         li:last-of-type{
             color: blue;
+        }
+
+        .first h1:nth-of-type(3):hover{
+            background:greenyellow;
+            color: fuchsia;
+        }
+        .first h1:nth-child(2):focus{
+            background: firebrick;
+        }
+
+        input:nth-of-type(2):focus{
+            color: firebrick;
+            background:salmon;
+            font-weight: 700;
+
+        }
+        input:nth-of-type(5){
+            background: red;
         }
     </style>
 </head>
@@ -45,8 +65,20 @@
         <h1>this is heding 4</h1>
         <h1>this is heding 5</h1>
     </div>
-    
 
+        <h1>this is heding 1</h1>
+        <h1>this is heding 2</h1>
+        <h1>this is heding 3</h1>
+        <h1>this is heding 4</h1>
+        <h1>this is heding 5</h1>
+        <h1>this is heding 6</h1>
+
+    
+        <input type="text">
+        <input type="text">
+        <input type="text">
+        <input type="text">
+        <input type="text">
 
         <li>maria</li>
         <li>taria</li>
