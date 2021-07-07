@@ -6,10 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pseudo element</title>
     <style>
-        
+        .first{
+            width: 500px;
+            height: 600px;
+            background-color: lightskyblue;
+            position: relative;
+            left: 100px;
+        }
         h1:first-child{
             background:midnightblue;
             color: lightslategrey;
+            position: sticky;
+            top: 0;
+            left: 120px;
         }
         h1:last-of-type{
             background: red;
