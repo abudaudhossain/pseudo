@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo element</title>
+    <style>
+        
+        h1:first-child{
+            background:midnightblue;
+            color: lightslategrey;
+        }
+        h1:last-of-type{
+            background: red;
+        }
+        .first h1:nth-child(3){
+            background: chocolate;
+        }
+        .second h1:last-child{
+            background: coral;
+        }
+      
+        li:last-child{
+            color: red;
+        }
+        li:last-of-type{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="first">
+        <h1>this is heding 1</h1>
+        <h1>this is heding 2</h1>
+        <h1>this is heding 3</h1>
+        <h1>this is heding 4</h1>
+        <h1>this is heding 5</h1>
+    </div>
+    
+    <div class="second">
+        <h1>this is heding 1</h1>
+        <h1>this is heding 2</h1>
+        <h1>this is heding 3</h1>
+        <h1>this is heding 4</h1>
+        <h1>this is heding 5</h1>
+    </div>
+    
+
+
+        <li>maria</li>
+        <li>taria</li>
+        <li>jamila</li>
+        <li>habila</li>
+        <li>chonila</li>
+        <li>tonila</li>
+
+</body>
+</html>
